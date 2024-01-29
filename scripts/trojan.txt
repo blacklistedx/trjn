@@ -1,0 +1,5 @@
+# Use the following commands to generate a exe for the trojan script (Can be incorperated into main C2 later)
+
+pip3 install pyinstaller
+
+pyinstaller -F --clean -w trojan.py
